@@ -2,8 +2,8 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import rickAndMortyApp from '../assets/rickAndMortyProject.jpg'
 import pokemonApp from '../assets/pokemonProject.jpg'
-import fortuneApp from '../assets/fortuneMessage.jpg'
 import stopwatch from '../assets/stopwatch.png'
+import gizmoGalaxy from '../assets/gizmoGalaxy.png'
 
 const Projects = () => {
   return (
@@ -13,10 +13,10 @@ const Projects = () => {
           These are my most relevants projects, in most of them I consumed a public API and its information ithas been displayed.
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
+            <ProjectItem img={gizmoGalaxy} title="GizmoGalaxy E-commerce"  link={"https://gizmogalaxy.netlify.app/"}/>
             <ProjectItem img={stopwatch} title="Stopwatch App"  link={"https://main--j-stopwatch.netlify.app/"}/>
             <ProjectItem img={rickAndMortyApp} title="Rick & Morty App"  link={"https://reliable-chaja-2870b8.netlify.app/"}/>
             <ProjectItem img={pokemonApp} title="Pokemon App" link={"https://graceful-valkyrie-410d64.netlify.app/#/pokedex"} />
-            <ProjectItem img={fortuneApp} title="Fortune App"  link={"https://amazing-dolphin-79c451.netlify.app/"}/>
         </div>
     </div>
   )
