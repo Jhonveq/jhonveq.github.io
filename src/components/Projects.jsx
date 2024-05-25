@@ -4,6 +4,8 @@ import rickAndMortyApp from '../assets/rickAndMortyProject.jpg'
 import pokemonApp from '../assets/pokemonProject.jpg'
 import stopwatch from '../assets/stopwatch.png'
 import gizmoGalaxy from '../assets/gizmoGalaxy.png'
+import xflix from '../assets/Xflix.png'
+
 
 const Projects = () => {
   return (
@@ -17,6 +19,7 @@ const Projects = () => {
             <ProjectItem img={stopwatch} title="Stopwatch App"  link={"https://main--j-stopwatch.netlify.app/"}/>
             <ProjectItem img={rickAndMortyApp} title="Rick & Morty App"  link={"https://reliable-chaja-2870b8.netlify.app/"}/>
             <ProjectItem img={pokemonApp} title="Pokemon App" link={"https://graceful-valkyrie-410d64.netlify.app/#/pokedex"} />
+            <ProjectItem img={xflix} title="Xflix Clon" link={"https://ecsflix.netlify.app/"} />
         </div>
     </div>
   )
